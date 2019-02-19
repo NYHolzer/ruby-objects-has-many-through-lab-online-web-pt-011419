@@ -26,6 +26,7 @@
   end 
   
   def patients 
+    binding.pry
     self.appointments.map {|a| a.patient}
   end 
   
