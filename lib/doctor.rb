@@ -15,6 +15,8 @@
   end 
   
   def new_appointment(date, patient)
+    date = date 
+    patient = patient
     appointment = Appointment.new(patient, self, date)
     appointment
   end 
