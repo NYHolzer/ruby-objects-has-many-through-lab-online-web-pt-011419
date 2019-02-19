@@ -10,7 +10,7 @@ class Patient
   end 
   
   
-  def all 
+  def self.all 
     @@all
   end 
   
